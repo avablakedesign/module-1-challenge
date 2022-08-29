@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-
+/* This determines the text in the header. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,7 +15,7 @@
     display: inline-block;
     font-size: 48px;
 }
-
+/* By distinguishing the color in the logo the SEO marketing is stronger. */
 .header h1 .seo {
     color: #ecab50;
 }
@@ -37,7 +37,7 @@
     margin-left: 25px;
 }
 
-/*This changes the digital marketing image of a meeting thats aligned before the body of the site.*/
+/* This changes the digital marketing image of a meeting thats aligned before the body of the site. */
 .hero {
     height: 800px;
     width: 100%;
@@ -47,18 +47,18 @@
     background-position: center;
 }
 
-/*This changes the background in the body of the website.*/
+/* This changes the background in the body of the website. */
 body {
     background-color: #d9dcd6;
 }
 
-/*Use this to change the font color of the links at the top.*/
+/* Use this to change the font color of the links at the top. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/*Use this to change the font size in the body of the website*/
+/* Use this to change the font size in the body of the website */
 p {
     font-size: 18px;
 }
@@ -79,6 +79,62 @@ p {
     margin-left: 20px;
 }
 
+/* This determines the text, text color, background color, margin position, padding, and text height. */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* This determines the text, text color, background color, margin position, padding, and text height. */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* This determines the text, text color, background color, and margin position, padding, and text height. */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* This determines the text, text color, background color, margin position, padding, and text height of the text boxes to the right*/ 
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -138,60 +194,7 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* This determines the font in the footer of the website. */
 .footer {
     padding: 30px;
     clear: both;
