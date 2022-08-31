@@ -10,14 +10,17 @@
     background-color: #2a607c;
     color: #ffffff;
 }
-
+.navbar {
+    padding-top: 30px;
+    float: right;
+}
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* By distinguishing the color in the logo the SEO marketing is stronger. */
+/* This is the color of seo in the logo thats header 1 */
 .header h1 .seo {
-    color: #ecab50;
+    color:#d9dcd6;
 }
 
 .header div {
@@ -134,7 +137,7 @@ p {
     font-size: 36px;
 }
 
-/* This determines the text, text color, background color, margin position, padding, and text height of the text boxes to the right*/ 
+/* This determines the text, text color, background color, margin position, padding, and text height of the sidebar text boxes to the right*/ 
 .benefits {
     margin-right: 20px;
     padding: 20px;
